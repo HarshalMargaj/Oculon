@@ -1,0 +1,32 @@
+.box {
+	width: 600px;
+	height: 220px;
+	border: 1px solid rgba(128, 128, 128, 0.581);
+	border-radius: 10px;
+	color: #eaffff;
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	text-align: center;
+	transition: all 1s ease-in;
+	background: #070e1a;
+}
+
+.box:hover {
+	/* background: rgb(84, 2, 149); */
+	background: linear-gradient(
+		222deg,
+		rgba(84, 2, 149, 0.8715861344537815) 0%,
+		#070e1a 44%
+	);
+}
+
+.box h2 {
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.box p {
+	font-size: 16px;
+}

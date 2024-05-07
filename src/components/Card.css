@@ -1,0 +1,49 @@
+.num-card {
+	display: flex;
+	/* background: rgb(84, 2, 149);
+	background: linear-gradient(
+		90deg,
+		rgba(84, 2, 149, 1) 0%,
+		rgba(14, 0, 56, 1) 27%
+	); */
+	/* background: rgb(61, 18, 189);
+	background: linear-gradient(
+		86deg,
+		rgba(61, 18, 189, 1) 0%,
+		rgba(7, 14, 26, 1) 27%
+	); */
+	/* background: rgb(111, 18, 189);
+	background: linear-gradient(
+		82deg,
+		rgba(111, 18, 189, 1) 0%,
+		rgba(7, 14, 26, 1) 22%
+	); */
+	background: rgb(39, 30, 85);
+	background: linear-gradient(
+		90deg,
+		rgba(39, 30, 85, 1) 0%,
+		rgba(16, 11, 40, 1) 32%
+	);
+	width: 400px;
+	align-items: center;
+	gap: 20px;
+	padding: 20px;
+	border: 1px solid rgba(170, 125, 252, 0.25);
+	border-radius: 10px;
+}
+
+.num-card .first {
+	font-size: 48px;
+	color: white;
+}
+
+.num-card .mid {
+	height: 50px;
+	background-color: blueviolet;
+	width: 3px;
+}
+
+.num-card .second {
+	font-size: 18px;
+	color: white;
+}
