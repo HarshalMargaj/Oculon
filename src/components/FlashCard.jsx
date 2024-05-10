@@ -5,8 +5,10 @@ const Card = props => {
 	return (
 		<div>
 			<div className="flash-card">
-				<h3>{props.Title}</h3>
-				<p>{props.Description}</p>
+				<div className="flash-card-content">
+					<h3>{props.Title}</h3>
+					<p>{props.Description}</p>
+				</div>
 				<div className="image">
 					<img src={props.Image} alt="" />
 				</div>

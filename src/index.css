@@ -9,7 +9,7 @@
 }
 
 body {
-	background: #070e1a;
+	background: #110c29;
 	overflow-x: hidden;
 }
 
@@ -17,6 +17,7 @@ p {
 	font-size: 18px;
 	letter-spacing: 1px;
 	line-height: 1.7rem;
+	color: #ece6fec7;
 }
 
 .btn {
@@ -25,8 +26,9 @@ p {
 }
 
 button {
-	padding: 7px 30px;
-	background-color: #6f12bd;
+	padding: 10px 30px;
+	background-image: linear-gradient(117.96deg, #6f58da, #5131e7);
+	box-shadow: 0 0 15px #6f58da;
 	border: none;
 	border-radius: 10px;
 	color: white;
@@ -34,98 +36,6 @@ button {
 	cursor: pointer;
 }
 
-/* .btn {
-	display: flex;
-	gap: 20px;
+span {
+	color: #aa7dfc;
 }
-
-.button {
-	color: white;
-	width: 150px;
-	height: 50px;
-	background: transparent;
-	position: relative;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	cursor: pointer;
-}
-
-.button::before {
-	content: "";
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 0;
-	height: 0;
-	border-top: 2px solid white;
-	border-right: 2px solid white;
-	animation: border-top-right 3s infinite linear;
-}
-
-@keyframes border-top-right {
-	0% {
-		width: 0px;
-		height: 0px;
-	}
-
-	25% {
-		width: 150px;
-		height: 0px;
-	}
-
-	50% {
-		width: 150px;
-		height: 48px;
-	}
-
-	100% {
-		width: 150px;
-		height: 48px;
-	}
-}
-
-.button::after {
-	content: "";
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	width: 0;
-	height: 0;
-	border-bottom: 2px solid white;
-	border-left: 2px solid white;
-
-	animation: border-bottom-left 3s infinite linear;
-}
-
-@keyframes border-bottom-left {
-	0% {
-		width: 0px;
-		height: 0px;
-		opacity: 0;
-	}
-
-	50% {
-		width: 0px;
-		height: 0px;
-		opacity: 0;
-	}
-
-	50.1% {
-		width: 0px;
-		height: 0px;
-		opacity: 1;
-	}
-
-	75% {
-		width: 150px;
-		height: 0px;
-		opacity: 1;
-	}
-
-	100% {
-		width: 150px;
-		height: 48px;
-		opacity: 1;
-	}
-} */

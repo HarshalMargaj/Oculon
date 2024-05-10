@@ -14,11 +14,35 @@
 		rgba(0, 0, 0, 1) 66%,
 		rgba(111, 18, 189, 1) 100%
 	); */
-	background: rgb(7, 14, 26);
+	/* background: rgb(7, 14, 26);
 	background: linear-gradient(
 		0deg,
 		rgba(7, 14, 26, 1) 35%,
 		rgba(84, 2, 149, 1) 100%
+	); */
+	/* background: rgb(17, 12, 41);
+	background: linear-gradient(
+		0deg,
+		rgba(17, 12, 41, 1) 22%,
+		rgba(158, 126, 253, 1) 100%
+	); */
+	/* background: rgb(17, 12, 41);
+	background: linear-gradient(
+		270deg,
+		rgba(17, 12, 41, 1) 22%,
+		rgba(158, 126, 253, 1) 100%
+	); */
+	/* background: rgb(158, 126, 253);
+	background: radial-gradient(
+		circle,
+		rgba(158, 126, 253, 1) 0%,
+		rgba(17, 12, 41, 1) 50%
+	); */
+	background: rgb(17, 12, 41);
+	background: linear-gradient(
+		0deg,
+		rgba(17, 12, 41, 1) 0%,
+		rgba(39, 30, 85, 1) 86%
 	);
 	background-size: cover;
 	height: 100vh;
@@ -31,23 +55,52 @@
 	align-items: center;
 	color: white;
 	flex-direction: column;
-
 	padding: 400px 80px;
 	height: 70vh;
 	justify-content: center;
-	gap: 20px;
+	gap: 30px;
 }
 
 .headline h1 {
 	font-size: 96px;
-	color: #ffffff;
-	/* color: #5b28ed; */
+	background: rgb(143, 143, 143);
+	/* background: linear-gradient(
+		317deg,
+		rgba(143, 143, 143, 0.1) 0%,
+		rgba(255, 255, 255, 1) 86%
+	); */
+	background: linear-gradient(
+			to right bottom,
+			rgb(255, 255, 255) 30%,
+			rgba(255, 255, 255, 0.38)
+		)
+		text;
+	background-size: 200%;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: 1000ms ease 0s 1 normal backwards running kVRLZT;
+}
+
+@keyframes kVRLZT {
+	0% {
+		opacity: 0;
+		transform: translateY(-10px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: none;
+	}
 }
 
 .headline p {
 	font-size: 20px;
 	line-height: 2rem;
-	color: #fcfcfc;
+}
+
+.headline button {
+	padding: 16px 32px;
 }
 
 /* section 2 */
@@ -79,9 +132,9 @@
 	font-weight: 600;
 }
 
-.sec-heading div h1 span {
-	color: #c67efd;
-}
+/* .sec-heading div h1 span {
+	color: #aa7dfc;
+} */
 
 /* Section-3 */
 #section-3 {
@@ -120,11 +173,12 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	gap: 50px;
 	color: #eaffff;
 }
 
 #section-6 .block .block-content {
-	width: 550px;
+	/* width: 550px; */
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
@@ -170,6 +224,7 @@
 #section-8 {
 	padding: 80px 0;
 	/* background-color: #131313; */
+	background-image: linear-gradient(97.75deg, #271e55 0%, #100b28 100%);
 }
 
 .marquee-info {

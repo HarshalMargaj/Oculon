@@ -115,11 +115,30 @@
 		rgba(17, 13, 41, 1) 69%,
 		rgba(84, 2, 149, 1) 100%
 	); */
-	background: rgb(39, 30, 85);
+	/* background: rgb(39, 30, 85);
 	background: linear-gradient(
 		144deg,
 		rgba(39, 30, 85, 1) 0%,
 		rgba(16, 11, 40, 1) 76%
+	); */
+	/* background: rgb(58, 37, 114);
+	background: linear-gradient(
+		217deg,
+		rgba(58, 37, 114, 1) 36%,
+		rgba(29, 21, 63, 1) 100%
+	); */
+	/* background: rgb(58, 37, 114);
+	background: linear-gradient(
+		118deg,
+		rgba(58, 37, 114, 1) 23%,
+		rgba(29, 21, 63, 1) 100%
+	); */
+
+	background: rgb(17, 12, 41);
+	background: linear-gradient(
+		13deg,
+		rgba(17, 12, 41, 1) 0%,
+		rgba(60, 37, 116, 1) 100%
 	);
 
 	box-sizing: border-box;

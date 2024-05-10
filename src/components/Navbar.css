@@ -4,10 +4,10 @@ div nav {
 	color: white;
 	justify-content: space-between;
 	padding: 10px 80px;
-
 	position: fixed;
 	width: 100vw;
-	background-color: #070e1a;
+	background-color: rgba(255, 255, 255, 0.1);
+	backdrop-filter: blur(10px);
 	z-index: 999;
 }
 
@@ -15,7 +15,7 @@ div h1 {
 	font-size: 40px;
 }
 
-div nav ul {
+/* div nav ul {
 	display: flex;
 	list-style: none;
 	gap: 30px;
@@ -31,7 +31,7 @@ div nav ul li:hover {
 	background-color: rgba(128, 128, 128, 0.201);
 	border-radius: 10px;
 	cursor: pointer;
-}
+} */
 
 /* div nav ul .feartures {
 	display: flex;

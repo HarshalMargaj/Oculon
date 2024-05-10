@@ -1,34 +1,6 @@
-// import React from "react";
-// import "./Navbar.css";
-// import { SlArrowDown } from "react-icons/sl";
-
-// const Navbar = () => {
-// 	return (
-// 		<div>
-// 			<nav>
-// 				<h1>Oculon.ai</h1>
-// 				<ul>
-// 					<li>Home</li>
-// 					<li className="feartures">
-// 						Features <SlArrowDown className="icon" />
-// 					</li>
-// 					<li>Solutions</li>
-// 					<li>Pricing</li>
-// 					<li>Resources</li>
-// 				</ul>
-// 				<div className="btn">
-// 					<button>Join Beta</button>
-// 					<button>Log In</button>
-// 				</div>
-// 			</nav>
-// 		</div>
-// 	);
-// };
-
-// export default Navbar;
-
 import React from "react";
 import "./Navbar.css";
+import "./Responsive.css";
 
 const Navbar = () => {
 	return (
@@ -48,8 +20,8 @@ const Navbar = () => {
 					</li>
 				</ul> */}
 				<div className="btn">
-					<button>Join Beta</button>
-					<button>Log In</button>
+					<button className="btn-1">Log In</button>
+					<button className="btn-2">Join Beta</button>
 				</div>
 			</nav>
 		</div>

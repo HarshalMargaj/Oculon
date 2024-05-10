@@ -20,7 +20,7 @@ export default function ControlledAccordions() {
 				square={true}
 				disableGutters={true}
 				sx={{
-					backgroundColor: "#070e1a",
+					backgroundColor: "#110c29",
 					color: "white",
 					borderTop: 0.2,
 					borderColor: "gray",
@@ -35,7 +35,7 @@ export default function ControlledAccordions() {
 				>
 					<Typography
 						sx={{
-							width: "33%",
+							width: "80%",
 							flexShrink: 0,
 							fontFamily: "poppins",
 							fontSize: 20,
@@ -57,7 +57,7 @@ export default function ControlledAccordions() {
 				onChange={handleChange("panel2")}
 				disableGutters={true}
 				sx={{
-					backgroundColor: "#070e1a",
+					backgroundColor: "#110c29",
 					color: "white",
 					borderTop: 0.2,
 					borderColor: "gray",
@@ -72,7 +72,7 @@ export default function ControlledAccordions() {
 				>
 					<Typography
 						sx={{
-							width: "45%",
+							width: "80%",
 							flexShrink: 0,
 							fontFamily: "poppins",
 							fontSize: 20,
@@ -91,7 +91,7 @@ export default function ControlledAccordions() {
 			</Accordion>
 			<Accordion
 				sx={{
-					backgroundColor: "#070e1a",
+					backgroundColor: "#110c29",
 					color: "white",
 					borderTop: 0.2,
 					borderColor: "gray",
@@ -109,7 +109,7 @@ export default function ControlledAccordions() {
 				>
 					<Typography
 						sx={{
-							width: "45%",
+							width: "80%",
 							flexShrink: 0,
 							fontFamily: "poppins",
 							fontSize: 20,
@@ -131,7 +131,7 @@ export default function ControlledAccordions() {
 				onChange={handleChange("panel4")}
 				disableGutters={true}
 				sx={{
-					backgroundColor: "#070e1a",
+					backgroundColor: "#110c29",
 					color: "white",
 					borderTop: 0.2,
 					borderColor: "gray",
@@ -147,7 +147,7 @@ export default function ControlledAccordions() {
 				>
 					<Typography
 						sx={{
-							width: "33%",
+							width: "80%",
 							flexShrink: 0,
 							fontFamily: "poppins",
 							fontSize: 20,
@@ -169,7 +169,7 @@ export default function ControlledAccordions() {
 				onChange={handleChange("panel5")}
 				disableGutters={true}
 				sx={{
-					backgroundColor: "#070e1a",
+					backgroundColor: "#110c29",
 					color: "white",
 					borderTop: 0.2,
 					borderColor: "gray",
