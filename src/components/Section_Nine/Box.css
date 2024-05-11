@@ -8,7 +8,6 @@
 	flex-direction: column;
 	gap: 20px;
 	text-align: center;
-	transition: all 1s ease-in;
 	background: rgb(17, 12, 41);
 	background: linear-gradient(
 		144deg,

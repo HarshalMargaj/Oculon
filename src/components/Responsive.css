@@ -225,10 +225,6 @@
 		padding: 20px;
 	}
 
-	.main #section-9 .boxes .box:hover {
-		background: none;
-	}
-
 	/* Footer */
 
 	.main .footer {
@@ -448,10 +444,6 @@
 		width: 340px;
 		height: 420px;
 		padding: 20px;
-	}
-
-	.main #section-9 .boxes .box:hover {
-		background: none;
 	}
 
 	/* footer */
