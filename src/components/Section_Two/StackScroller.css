@@ -1,0 +1,89 @@
+:root {
+	--cards: 4;
+	--cardHeight: 70vh;
+	--cardTopPadding: 7em;
+	--cardMargin: 4vw;
+}
+
+.container {
+	margin: 0 auto;
+}
+
+#cards {
+	list-style: none;
+	padding-left: 0;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(var(--cards), var(--cardHeight));
+	gap: var(--cardMargin);
+	padding-bottom: calc(var(--cards) * (var(--cardTopPadding)) / 1.3);
+}
+
+#card1 {
+	--index: 1;
+	padding-top: calc(var(--index) * var(--cardTopPadding));
+}
+
+#card2 {
+	--index: 2;
+}
+#card3 {
+	--index: 3;
+	padding-top: calc(var(--index) * var(--cardTopPadding) / 1.8);
+}
+#card4 {
+	--index: 4;
+	padding-top: calc(var(--index) * var(--cardTopPadding) / 2);
+}
+
+.card {
+	position: sticky;
+	top: 0;
+	padding-top: calc(var(--index) * var(--cardTopPadding) / 1.5);
+}
+
+.card-body {
+	background-color: transparent;
+	color: white;
+}
+
+.card-body .content {
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+
+.card-body h3 {
+	font-size: 40px;
+	font-weight: 400;
+}
+
+.card-body p {
+	line-height: 2rem;
+	/* width: 500px; */
+	font-size: 20px;
+	word-spacing: 2px;
+}
+
+.card-body {
+	background: rgb(17, 12, 41);
+	background: linear-gradient(
+		13deg,
+		rgba(17, 12, 41, 1) 0%,
+		rgba(60, 37, 116, 1) 100%
+	);
+
+	box-sizing: border-box;
+	padding: 50px;
+	border-radius: 50px;
+	box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.3);
+	height: var(--cardHeight);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 0.5s;
+}
+
+h2 {
+	font-size: 2.5em;
+}

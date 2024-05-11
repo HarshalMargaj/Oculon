@@ -1,6 +1,6 @@
 import React from "react";
 import "./StackScroller.css";
-import "./Responsive.css";
+import "../Responsive.css";
 
 const StackScroller = () => {
 	return (

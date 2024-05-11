@@ -22,8 +22,8 @@ export default function ControlledAccordions() {
 				sx={{
 					backgroundColor: "#110c29",
 					color: "white",
-					borderTop: 0.2,
-					borderColor: "gray",
+					borderTop: 0.5,
+					borderColor: "rgba(170, 125, 252, 0.25)",
 					paddingTop: 2,
 					paddingBottom: 2,
 				}}
@@ -41,14 +41,20 @@ export default function ControlledAccordions() {
 							fontSize: 20,
 						}}
 					>
-						General settings
+						Build with AI
 					</Typography>
 				</AccordionSummary>
 				<AccordionDetails>
-					<Typography sx={{ fontFamily: "poppins" }}>
-						Nulla facilisi. Phasellus sollicitudin nulla et quam
-						mattis feugiat. Aliquam eget maximus est, id dignissim
-						quam.
+					<Typography
+						sx={{
+							fontFamily: "poppins",
+							letterSpacing: 1,
+						}}
+					>
+						Augment decision-making processes with AI-powered
+						systems that evaluate complex data, assess multiple
+						variables, and provide actionable recommendations
+						aligned with predefined objectives.
 					</Typography>
 				</AccordionDetails>
 			</Accordion>
@@ -60,7 +66,7 @@ export default function ControlledAccordions() {
 					backgroundColor: "#110c29",
 					color: "white",
 					borderTop: 0.2,
-					borderColor: "gray",
+					borderColor: "rgba(170, 125, 252, 0.25)",
 					paddingTop: 2,
 					paddingBottom: 2,
 				}}
@@ -78,14 +84,17 @@ export default function ControlledAccordions() {
 							fontSize: 20,
 						}}
 					>
-						Users
+						Plan with AI
 					</Typography>
 				</AccordionSummary>
 				<AccordionDetails>
-					<Typography sx={{ fontFamily: "poppins" }}>
-						Donec placerat, lectus sed mattis semper, neque lectus
-						feugiat lectus, varius pulvinar diam eros in elit.
-						Pellentesque convallis laoreet laoreet.
+					<Typography
+						sx={{ fontFamily: "poppins", letterSpacing: 1 }}
+					>
+						Gain a competitive edge by incorporating AI-driven
+						predictive analytics to forecast future trends, identify
+						risks, and uncover hidden opportunities within your
+						data.
 					</Typography>
 				</AccordionDetails>
 			</Accordion>
@@ -94,7 +103,7 @@ export default function ControlledAccordions() {
 					backgroundColor: "#110c29",
 					color: "white",
 					borderTop: 0.2,
-					borderColor: "gray",
+					borderColor: "rgba(170, 125, 252, 0.25)",
 					paddingTop: 2,
 					paddingBottom: 2,
 				}}
@@ -115,14 +124,16 @@ export default function ControlledAccordions() {
 							fontSize: 20,
 						}}
 					>
-						Advanced settings
+						Unlock Insights with AI
 					</Typography>
 				</AccordionSummary>
 				<AccordionDetails>
-					<Typography sx={{ fontFamily: "poppins" }}>
-						Nunc vitae orci ultricies, auctor nunc in, volutpat
-						nisl. Integer sit amet egestas eros, vitae egestas
-						augue. Duis vel est augue.
+					<Typography
+						sx={{ fontFamily: "poppins", letterSpacing: 1 }}
+					>
+						Engage in natural language conversations with an AI
+						assistant that understands user queries and provides
+						personalized insights and recommendations.
 					</Typography>
 				</AccordionDetails>
 			</Accordion>
@@ -134,7 +145,7 @@ export default function ControlledAccordions() {
 					backgroundColor: "#110c29",
 					color: "white",
 					borderTop: 0.2,
-					borderColor: "gray",
+					borderColor: "rgba(170, 125, 252, 0.25)",
 					paddingTop: 2,
 					paddingBottom: 2,
 					boxShadow: "none",
@@ -153,14 +164,17 @@ export default function ControlledAccordions() {
 							fontSize: 20,
 						}}
 					>
-						Personal data
+						Visualize with AI
 					</Typography>
 				</AccordionSummary>
 				<AccordionDetails>
-					<Typography sx={{ fontFamily: "poppins" }}>
-						Nunc vitae orci ultricies, auctor nunc in, volutpat
-						nisl. Integer sit amet egestas eros, vitae egestas
-						augue. Duis vel est augue.
+					<Typography
+						sx={{ fontFamily: "poppins", letterSpacing: 1 }}
+					>
+						Transform data into compelling visualizations with
+						AI-powered capabilities that automate chart selection,
+						intelligent data encoding, and adaptive layout
+						adjustments.
 					</Typography>
 				</AccordionDetails>
 			</Accordion>
@@ -171,8 +185,8 @@ export default function ControlledAccordions() {
 				sx={{
 					backgroundColor: "#110c29",
 					color: "white",
-					borderTop: 0.2,
-					borderColor: "gray",
+					borderTop: 0.5,
+					borderColor: "rgba(170, 125, 252, 0.25)",
 					paddingTop: 2,
 					paddingBottom: 2,
 					boxShadow: "none",
@@ -185,20 +199,23 @@ export default function ControlledAccordions() {
 				>
 					<Typography
 						sx={{
-							width: "33%",
+							width: "45%",
 							flexShrink: 0,
 							fontFamily: "poppins",
 							fontSize: 20,
 						}}
 					>
-						Personal data
+						Collaborate with AI
 					</Typography>
 				</AccordionSummary>
 				<AccordionDetails>
-					<Typography sx={{ fontFamily: "poppins" }}>
-						Nunc vitae orci ultricies, auctor nunc in, volutpat
-						nisl. Integer sit amet egestas eros, vitae egestas
-						augue. Duis vel est augue.
+					<Typography
+						sx={{ fontFamily: "poppins", letterSpacing: 1 }}
+					>
+						Streamline workflows and automate processes with
+						AI-driven capabilities that minimize manual effort in
+						tasks such as data preparation, model deployment, and
+						report generation.
 					</Typography>
 				</AccordionDetails>
 			</Accordion>

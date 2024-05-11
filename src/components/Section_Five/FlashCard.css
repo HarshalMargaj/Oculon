@@ -5,11 +5,12 @@
 	border: 1px solid rgba(170, 125, 252, 0.25);
 	color: rgba(255, 255, 255, 0.8);
 	padding: 30px;
-	border-radius: 10px;
+	border-radius: 20px;
 	display: flex;
 	gap: 20px;
 	flex-direction: column;
 	transition: 0.3s ease-in-out;
+	align-items: center;
 }
 
 .flash-card div {
@@ -29,9 +30,7 @@
 }
 
 .flash-card p {
-	/* line-height: 1.7rem; */
 	font-size: 1rem;
-	/* letter-spacing: 1px; */
 }
 
 .flash-card .image {

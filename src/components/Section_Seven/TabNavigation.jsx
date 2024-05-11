@@ -73,25 +73,29 @@ const Tab1Content = () => {
 		<div>
 			<div className="drawer">
 				<div className="drawer-content">
-					<p>
-						<ul className="drawer-list">
-							<li>
+					<ul className="drawer-list">
+						<li>
+							<span>
 								Optimise Inventory via Oculon & analyse sales
-								trends and predict inventory needs, minimising
-								overstock and understock situations.
-							</li>
-							<li>
-								Leverage data to create detailed customer
-								segments, tailoring marketing strategies to
-								increase engagement and conversion rates.
-							</li>
-							<li>
-								Dynamically adjust prices based on real-time
-								market data and consumer behavior analytics to
-								maximize profitability.
-							</li>
-						</ul>
-					</p>
+								trends
+							</span>{" "}
+							and predict inventory needs, minimising overstock
+							and understock situations.
+						</li>
+						<li>
+							Leverage data to create{" "}
+							<span>
+								detailed customer segments, tailoring marketing
+								strategies
+							</span>{" "}
+							to increase engagement and conversion rates.
+						</li>
+						<li>
+							<span>Dynamically adjust prices</span> based on
+							real-time market data and consumer behavior
+							analytics to maximize profitability.
+						</li>
+					</ul>
 				</div>
 				<div className="drawer-image">
 					<img
@@ -109,26 +113,26 @@ const Tab2Content = () => {
 		<div>
 			<div className="drawer">
 				<div className="drawer-content">
-					<p>
-						<ul className="drawer-list">
-							<li>
-								Churn Prediction: Utilize Oculon to identify
-								at-risk customers by analyzing usage patterns
-								and engagement metrics, enabling proactive
-								retention strategies.
-							</li>
-							<li>
-								Revenue Forecasting: Employ advanced modeling to
-								predict future revenue streams based on current
-								growth trends and customer acquisition rates.
-							</li>
-							<li>
-								Feature Usage Analysis: Track which features are
-								most used and valued by customers, guiding
-								development priorities and resource allocation.
-							</li>
-						</ul>
-					</p>
+					<ul className="drawer-list">
+						<li>
+							<span>Churn Prediction:</span> Utilize Oculon to
+							identify at-risk customers by analyzing usage
+							patterns and engagement metrics, enabling proactive
+							retention strategies.
+						</li>
+						<li>
+							<span>Revenue Forecasting:</span> Employ advanced
+							modeling to predict future revenue streams based on
+							current growth trends and customer acquisition
+							rates.
+						</li>
+						<li>
+							<span>Feature Usage Analysis:</span> Track which
+							features are most used and valued by customers,
+							guiding development priorities and resource
+							allocation.
+						</li>
+					</ul>
 				</div>
 				<div className="drawer-image">
 					<img
@@ -146,28 +150,26 @@ const Tab3Content = () => {
 		<div>
 			<div className="drawer">
 				<div className="drawer-content">
-					<p>
-						<ul className="drawer-list">
-							<li>
-								Customer Lifetime Value Prediction: Analyze past
-								purchasing behavior and customer interactions to
-								predict future buying patterns and determine the
-								most valuable customers.
-							</li>
-							<li>
-								Supply Chain Management: Integrate data across
-								the supply chain to optimize logistics, reduce
-								shipping times, and improve customer
-								satisfaction.
-							</li>
-							<li>
-								A/B Testing Analysis: Use Oculon to measure the
-								impact of different webpage layouts, promotional
-								offers, and product placements on sales and
-								customer behavior.
-							</li>
-						</ul>
-					</p>
+					<ul className="drawer-list">
+						<li>
+							<span>Customer Lifetime Value Prediction:</span>{" "}
+							Analyze past purchasing behavior and customer
+							interactions to predict future buying patterns and
+							determine the most valuable customers.
+						</li>
+						<li>
+							<span>Supply Chain Management:</span> Integrate data
+							across the supply chain to optimize logistics,
+							reduce shipping times, and improve customer
+							satisfaction.
+						</li>
+						<li>
+							<span>A/B Testing Analysis:</span> Use Oculon to
+							measure the impact of different webpage layouts,
+							promotional offers, and product placements on sales
+							and customer behavior.
+						</li>
+					</ul>
 				</div>
 				<div className="drawer-image">
 					<img
@@ -184,26 +186,24 @@ const Tab4Content = () => {
 		<div>
 			<div className="drawer">
 				<div className="drawer-content">
-					<p>
-						<ul className="drawer-list">
-							<li>
-								Fraud Detection: Implement models that detect
-								unusual transaction patterns in real-time to
-								prevent fraud and maintain security.
-							</li>
-							<li>
-								Credit Scoring: Develop predictive models to
-								assess credit risk based on a wide array of
-								financial behaviors and customer demographics.
-							</li>
-							<li>
-								Regulatory Compliance Monitoring: Automatically
-								track and report transactions that may require
-								regulatory review or action, ensuring compliance
-								with minimal manual intervention.
-							</li>
-						</ul>
-					</p>
+					<ul className="drawer-list">
+						<li>
+							<span>Fraud Detection:</span> Implement models that
+							detect unusual transaction patterns in real-time to
+							prevent fraud and maintain security.
+						</li>
+						<li>
+							<span>Credit Scoring:</span> Develop predictive
+							models to assess credit risk based on a wide array
+							of financial behaviors and customer demographics.
+						</li>
+						<li>
+							<span>Regulatory Compliance Monitoring:</span>{" "}
+							Automatically track and report transactions that may
+							require regulatory review or action, ensuring
+							compliance with minimal manual intervention.
+						</li>
+					</ul>
 				</div>
 				<div className="drawer-image">
 					<img
@@ -220,28 +220,26 @@ const Tab5Content = () => {
 		<div>
 			<div className="drawer">
 				<div className="drawer-content">
-					<p>
-						<ul className="drawer-list">
-							<li>
-								Predictive Maintenance: Analyze machine
-								performance data to predict equipment failures
-								before they occur, reducing downtime and
-								maintenance costs.
-							</li>
-							<li>
-								Production Optimization: Model production
-								processes to identify bottlenecks and optimize
-								workflow for increased throughput and reduced
-								waste.
-							</li>
-							<li>
-								Quality Control Analysis: Utilize data from
-								production lines to detect anomalies or
-								variations in product quality, triggering
-								corrective actions in real-time.
-							</li>
-						</ul>
-					</p>
+					<ul className="drawer-list">
+						<li>
+							<span>Predictive Maintenance:</span> Analyze machine
+							performance data to predict equipment failures
+							before they occur, reducing downtime and maintenance
+							costs.
+						</li>
+						<li>
+							<span>Production Optimization:</span> Model
+							production processes to identify bottlenecks and
+							optimize workflow for increased throughput and
+							reduced waste.
+						</li>
+						<li>
+							<span>Quality Control Analysis:</span> Utilize data
+							from production lines to detect anomalies or
+							variations in product quality, triggering corrective
+							actions in real-time.
+						</li>
+					</ul>
 				</div>
 				<div className="drawer-image">
 					<img
